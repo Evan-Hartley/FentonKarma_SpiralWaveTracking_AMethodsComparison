@@ -31,7 +31,7 @@ if toggle_JDM:
             plot_x_JDM.append(data_x_JDM[ii])
             plot_y_JDM.append(data_y_JDM[ii])
             
-    ax.plot(plot_x_JDM,plot_y_JDM, color = 'b', label = 'Jacobian Determinate Method')
+    ax.plot(plot_x_JDM,plot_y_JDM, color = 'b', label = 'Jacobian-Determinant Method')
 
   # If toggle_contour is true, read data from files and plot the data (ignoring dummy values)  
 if toggle_contour:
